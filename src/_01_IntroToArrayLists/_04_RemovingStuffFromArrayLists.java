@@ -38,7 +38,6 @@ public class _04_RemovingStuffFromArrayLists {
 		
 		
 		
-		
 		System.out.println(stuffIFoundInTheYard.size()); // should be 2
 
 		ArrayList<Character> truth = new ArrayList<Character>();

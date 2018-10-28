@@ -53,10 +53,14 @@ public class _02_GuestBook implements ActionListener {
 			names.add(newName);
 		}
 		if (buttonClicked == button2) {
-			String allNames = null;
-			for (int i = 0; i < names.size(); i++) {
-//				allNames.
-			}
+			JOptionPane.showMessageDialog(null, displayNames(names));
 		}
+	}
+	public String displayNames(ArrayList<String> allNames) {
+		StringBuilder storage = new StringBuilder();
+		for (int i = 0; i < allNames.size(); i++) {
+			storage.append("Guest #" + String.valueOf(i+1) + ": " + allNames.get(i) + "\n");
+		}
+		return storage.toString();
 	}
 }
