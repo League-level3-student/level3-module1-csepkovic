@@ -31,6 +31,7 @@ public class HangMan{
 	public static void main(String[] args) {
 		HangMan hangman = new HangMan();
 		hangman.createUI();
+		hangman.playHangMan();
 	}
 	
 }
