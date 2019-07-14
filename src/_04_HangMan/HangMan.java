@@ -38,6 +38,8 @@ public class HangMan implements KeyListener{
 				blankWord += "_ ";
 			}
 		}
+	} public void newWordMethod() {
+		
 	}
 	public static void main(String[] args) {
 		HangMan hangman = new HangMan();
